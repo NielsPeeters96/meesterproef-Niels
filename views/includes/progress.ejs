@@ -1,27 +1,27 @@
 <body>
-<img src="https://media-exp3.licdn.com/dms/image/C4D03AQG_Re1kpUjXEw/profile-displayphoto-shrink_200_200/0/1589890532232?e=1628726400&v=beta&t=-BxECypsK4MXIVjN8q-ha8RhQOgBfeKi9uYYKl2vFRo" id="activiteitenFoto">
-<div class="welkom">
-    <p>Hallo, Niels Peeters</p>
-    <h4>Welkom op uw dashboard</h4>
-</div>
-
-<section class="progress">
-<article class="lightprogress">
-    <div class="box">
-        <div class="percent">
-            <svg class="goal">
-                <circle cx="70" cy="70" r="70"></circle>
-                <circle cx="70" cy="70" r="70"></circle>
-            </svg>
-            <div class="value">
-                <h2><%=currentDay.values[0].light_activity %></h2>
-                <span>Light</span>
+    <img src="https://media-exp3.licdn.com/dms/image/C4D03AQG_Re1kpUjXEw/profile-displayphoto-shrink_200_200/0/1589890532232?e=1628726400&v=beta&t=-BxECypsK4MXIVjN8q-ha8RhQOgBfeKi9uYYKl2vFRo" id="activiteitenFoto">
+    <div class="welkom">
+        <p>Hallo, Niels Peeters</p>
+        <h4>Welkom op uw dashboard</h4>
+    </div>
+    
+    <section class="progress">
+        <article class="lightprogress">
+            <div class="box">
+                <div class="percent">
+                    <svg class="goal">
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="value">
+                        <h2><%=currentDay.values[0].light_activity %></h2>
+                        <span>Light</span>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
     </article>
-
+    
     <article class="mediumprogress">
         <div class="box">
             <div class="percent">
@@ -35,23 +35,23 @@
                 </div>
             </div>
         </div>
-        </div>
-        </article>
+    </div>
+</article>
 
-        <article class="heavyprogress">
-            <div class="box">
-                <div class="percent">
-                    <svg class="goal">
-                        <circle class="heavy" cx="70" cy="70" r="70"></circle>
-                        <circle class="heavy" cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="value">
-                        <h2><%=currentDay.values[0].heavy_activity %></h2>
-                        <span>Heavy</span>
-                    </div>
-                </div>
+<article class="heavyprogress">
+    <div class="box">
+        <div class="percent">
+            <svg class="goal">
+                <circle class="heavy" cx="70" cy="70" r="70"></circle>
+                <circle class="heavy" cx="70" cy="70" r="70"></circle>
+            </svg>
+            <div class="value">
+                <h2><%=currentDay.values[0].heavy_activity %></h2>
+                <span>Heavy</span>
             </div>
-            </div>
-            </article>
-        </section>
-    </body>
+        </div>
+    </div>
+</div>
+</article>
+</section>
+</body>
