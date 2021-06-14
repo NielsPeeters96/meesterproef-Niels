@@ -110,6 +110,7 @@ De score van deze twee karakters geeft de beweging aan.
 ## 📄 To do list
 - [x] Setup Project
 - [x] Build interface
+- [ ] Responsive
 - [ ] Fetch data
 - [ ] Visualize data with charts and circles
 - [x] Display activities
