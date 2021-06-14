@@ -1,7 +1,7 @@
 # Meesterproef 2021
 
 ## 🔴 Livelink
-https://niels-hipper.netlify.app/
+https://hipper-niels.herokuapp.com/
 
 This design is made for Tablets
 
