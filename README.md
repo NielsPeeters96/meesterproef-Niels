@@ -126,14 +126,6 @@ De score van deze twee karakters geeft de beweging aan.
 <!-------------------------- New Paragraph -------------------------->
 
 
-## 💎 Implementatietraject
-
-
-
----
-
-<!-------------------------- New Paragraph -------------------------->
-
 ## ℹ️ Sources
 - https://github.com/NathanNeelis/meesterproef-2021
 - https://www.youtube.com/watch?v=BDpBAFvdjYo&ab_channel=LoharTalkLoharTalk 
