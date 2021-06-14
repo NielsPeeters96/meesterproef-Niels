@@ -67,7 +67,7 @@ Vastgelopen op:
 - Design responsive maken omdat we ons focussen op Tablet
 - Geen professional op het gebied van Node JS
 - Moeite met programmeren
-- Firebase leren en toepassen
+- MongooseDB leren en toepassen
 
 ---
 
@@ -79,7 +79,7 @@ Vastgelopen op:
 - Express
 - Dotenv
 - D3 Charts
-- Firebase
+- MongooseDB
 
 ---
 
@@ -119,7 +119,7 @@ De score van deze twee karakters geeft de beweging aan.
 - [ ] Use D3 to make charts
 - [ ] Save activities
 - [ ] Load daily activities at planning page
-- [ ] Using FireBase with activities
+- [ ] Using MongooseDB with activities
 
 ---
 
