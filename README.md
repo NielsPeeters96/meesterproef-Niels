@@ -37,7 +37,7 @@ Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de infor
 
 <summary>Break-down-schets</summary>
 
-![image](https://github.com/NielsPeeters96/meesterproef-2021/raw/master/public/images/Break-down-schets.png)
+![image](https://github.com/NielsPeeters96/meesterproef-Niels/blob/main/public/images/Break-down-schets.png)
 
 </details>
 
