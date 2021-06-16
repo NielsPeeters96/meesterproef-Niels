@@ -1,7 +1,7 @@
 # Meesterproef 2021
 
 ## 🔴 Livelink
-https://niels-hipper.netlify.app/
+https://hipper-niels.herokuapp.com/
 
 This design is made for Tablets
 
@@ -37,7 +37,7 @@ Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de infor
 
 <summary>Break-down-schets</summary>
 
-![image](https://github.com/NielsPeeters96/meesterproef-2021/raw/master/public/images/Break-down-schets.png)
+![image](https://github.com/NielsPeeters96/meesterproef-Niels/blob/main/public/images/Break-down-schets.png)
 
 </details>
 
@@ -67,7 +67,7 @@ Vastgelopen op:
 - Design responsive maken omdat we ons focussen op Tablet
 - Geen professional op het gebied van Node JS
 - Moeite met programmeren
-- Firebase leren en toepassen
+- MongooseDB leren en toepassen
 
 ---
 
@@ -79,7 +79,7 @@ Vastgelopen op:
 - Express
 - Dotenv
 - D3 Charts
-- Firebase
+- MongooseDB
 
 ---
 
@@ -110,6 +110,7 @@ De score van deze twee karakters geeft de beweging aan.
 ## 📄 To do list
 - [x] Setup Project
 - [x] Build interface
+- [ ] Responsive
 - [ ] Fetch data
 - [ ] Visualize data with charts and circles
 - [x] Display activities
@@ -119,17 +120,19 @@ De score van deze twee karakters geeft de beweging aan.
 - [ ] Use D3 to make charts
 - [ ] Save activities
 - [ ] Load daily activities at planning page
-- [ ] Using FireBase with activities
+- [ ] Using MongooseDB with activities
 
 ---
 
 <!-------------------------- New Paragraph -------------------------->
+
 
 ## ℹ️ Sources
 - https://github.com/NathanNeelis/meesterproef-2021
 - https://www.youtube.com/watch?v=BDpBAFvdjYo&ab_channel=LoharTalkLoharTalk 
 - https://www.youtube.com/watch?v=C4t6qfHZ6Tw&t=1393s&ab_channel=freeCodeCamp.orgfreeCodeCamp.org
 - https://www.youtube.com/watch?v=Ft73g5Kyknw&t=54s&ab_channel=freeCodeCamp.orgfreeCodeCamp.orgGeverifieerd
+- https://zellwk.com/blog/local-mongodb/
 
 ---
 
