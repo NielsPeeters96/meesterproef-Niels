@@ -27,6 +27,10 @@ app.get('/doelen', goals, (req, res) => {
     res.render('doelen.ejs');
 });
 
+app.get('/planactiviteit', (req, res) => {
+    res.render('planactiviteit.ejs');
+});
+
 app.get('/logboek', (req, res) => {
     res.render('logboek.ejs');
 });

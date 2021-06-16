@@ -41,7 +41,7 @@
   --color-txt: var(--light-text);
 }
 
-body{
+body {
   background-repeat: no-repeat;
   background-color: #2E2F55;
   letter-spacing: 0.1rem;
@@ -162,7 +162,7 @@ div.box .percent .value {
   display: grid;
   justify-content: center;
   align-items: center;
-  color: orange;
+  color: pink;
 }
 
 div.box .percent .value h2 {
@@ -200,7 +200,7 @@ span.weekAverage {
   position: absolute;
   margin-left: 30rem;
   font-size: 1.5rem;
-  color: orange;
+  color: pink;
 }
 
 div.grafiek{
@@ -215,7 +215,7 @@ svg.graph {
   position: relative;
 }
 
-/* Suggested activities */
+/* Afgeronde activities */
 
 dd {
   font-size: 1.5rem;
@@ -256,7 +256,7 @@ div.activityBar h4 {
 
 div.welkom {
   color: white;
-  width: 414px;
+  width: 600px;
   height: 102px;
   margin-top: 10rem;
 }
@@ -268,6 +268,26 @@ div.welkom p {
 }
 
 div.welkom h4 {
+  font-weight: 600;
+  margin-left: 5rem;
+  font-size: 2rem;
+}
+
+div.exercise {
+  color: white;
+  width: 414px;
+  height: 102px;
+  margin-top: 10rem;
+  position: absolute;
+}
+
+div.exercise p {
+  font-weight: 100;
+  margin-left: 5rem;
+  font-size: 1.2rem;
+}
+
+div.exercise h4 {
   font-weight: 600;
   margin-left: 5rem;
   font-size: 2rem;
@@ -313,40 +333,80 @@ div.vandaag h4 {
   margin-left: 5rem;
 }
 
-.block {
-  width: 400px;
-  height: 460px;
-}
-
-.block-1 {
-  background: url(/images/Top\ img\ 1.svg) no-repeat 50% 50%;
-}
-
-.block-2 {
-  background: url(/images/Top\ img\ 1.svg)  no-repeat 50% 50%;
-}
-
-.block-3 {
-  background: url(/images/Top\ img\ 1.svg)  no-repeat 50% 50%;
-}
-
-.block-4 {
-  background: url(/images/Top\ img\ 1.svg)  no-repeat 50% 50%;
-}
-
-.block-5 {
-  background: url(/images/Top\ img\ 1.svg)  no-repeat 50% 50%;
+html,
+body.activities {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    overflow-y: hidden;
+    overflow-x: auto;
 }
 
 .container {
-  width: 80%;
-  height: 400px;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  display: flex;
-  align-items: center;
-  margin-top: -9rem;
-  margin-left: 2rem;
+  margin-top: 250px;
+}
+
+.block {
+    position: relative;
+    width: 580px;
+    height: 460px;
+    margin: 10px 300px 20px 80px;
+}
+
+.block-1 {
+  background: url(/images/Top\ img\ 1.svg) no-repeat;
+  background-size: cover;
+}
+
+.block-2 {
+  background: url(/images/Top\ img\ 2.svg)  no-repeat;
+  background-size: cover;
+}
+
+.block-3 {
+  background: url(/images/Top\ img\ 3.svg)  no-repeat;
+  background-size: cover;
+}
+
+.block-4 {
+  background: url(/images/Top\ img\ 4.svg)  no-repeat;
+  background-size: cover;
+}
+
+.block-5 {
+  background: url(/images/Top\ img\ 5.svg)  no-repeat;
+  background-size: cover;
+}
+
+.block-1 h1,
+.block-3 h1,
+.block-5 h1 {
+    bottom: 0;
+    right: -60px;
+    margin-top: -50px;
+    font-weight: 300;
+}
+
+.block-2 h1,
+.block-4 h1 {
+    right: -60px;
+    font-weight: 300;
+}
+
+button.startactiviteit {
+  padding: 10px 10px;
+  margin-top: 29rem;
+  font-size: 1.5rem;
+  float: right;
+  background-color: transparent;
+  color: white;
+}
+
+button.startactiviteit:hover {
+  opacity: 0.5;
+  cursor: pointer;
 }
 
 div.populair {
@@ -404,7 +464,11 @@ div.footerimg img {
   width: 70%;
   position: fixed;
   bottom:0;
-  margin-left: 15%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  margin-left: 15vw;
 }
 
 nav.navigatie {
@@ -412,7 +476,7 @@ nav.navigatie {
   bottom: 0;
   width: 100%;
   padding: 40px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 nav.navigatie .button {
@@ -420,20 +484,20 @@ nav.navigatie .button {
 }
 
 nav.navigatie #logboek {
-  margin-left: 80px;
+  margin-left: 85px;
 }
 
 nav.navigatie #doelen {
   margin-left: 20px;
 }
 
-nav.navigatie #toevoegen {
-  margin-left: 45px;
+nav.navigatie #planactiviteit {
+  margin-left: 40px;
   border-radius: 50%;
 }
 
 nav.navigatie #activiteit {
-  margin-left: 53px;
+  margin-left: 50px;
 }
 
 nav.navigatie #profiel {
@@ -457,9 +521,6 @@ div.lichtDoel {
   width: 200px;
   padding-top: 10px;
   height: 210px;
-  background: #ff92a4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2E2F55, #ff92a4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2E2F55, #ff92a4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
   border-radius: 10px;
 }
 
@@ -467,9 +528,6 @@ div.mediumDoel {
   width: 200px;
   padding-top: 10px;
   height: 210px;
-  background: #ff92a4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #122c49, #ff92a4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2E2F55, #ff92a4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
   border-radius: 10px;
 }
 
@@ -478,9 +536,6 @@ div.zwaarDoel {
   padding-top: 10px;
   margin-top: 20px;
   height: 210px;
-  background: #ff92a4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2E2F55, #ff92a4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2E2F55, #ff92a4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
   border-radius: 10px;
 }
 
@@ -489,9 +544,6 @@ div.pamscore {
   padding-top: 10px;
   margin-top: 20px;
   height: 210px;
-  background: #ff92a4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2E2F55, #ff92a4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2E2F55, #ff92a4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
   border-radius: 10px;
 }
 
@@ -771,4 +823,57 @@ input#fname {
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+form.activiteiten_wrapper {
+  position: absolute;
+  margin-top: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+form.activiteiten_wrapper input[type=checkbox] {
+  clip: rect(0 0 0 0);
+  position: absolute;
+  left: -1em;
+  border: none;
+}
+
+form.activiteiten_wrapper label {
+  width: 12rem;
+  height: 7rem;
+  border-radius: .5rem;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  text-align: center;
+  margin: .5rem;
+  font-size: .8rem;
+}
+
+form.activiteiten_wrapper input[type=checkbox]:checked+label {
+  border: 2px solid orange;
+  background: orange;
+}
+
+form.activiteiten_wrapper label img {
+  height: 65%;
+}
+
+.addBtn {
+  width: 90%;
+  background-color: transparent;
+  border: none;
+  border-radius: .3rem;
+  padding: .7rem .3rem;
+  color: white;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+
 }
