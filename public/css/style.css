@@ -396,12 +396,13 @@ body.activities {
 }
 
 button.startactiviteit {
-  padding: 10px 10px;
-  margin-top: 29rem;
+  width: 600px;
+  height: 500px;
   font-size: 1.5rem;
-  float: right;
   background-color: transparent;
   color: white;
+  position: absolute;
+  border: none;
 }
 
 button.startactiviteit:hover {
@@ -852,17 +853,17 @@ form.activiteiten_wrapper label {
   flex-direction: column;
   padding: 1rem;
   text-align: center;
-  margin: .5rem;
-  font-size: .8rem;
+  margin: 1.5rem;
+  font-size: 1.2rem;
 }
 
 form.activiteiten_wrapper input[type=checkbox]:checked+label {
   border: 2px solid orange;
-  background: orange;
+  background: skyblue;
 }
 
 form.activiteiten_wrapper label img {
-  height: 65%;
+  height: 75%;
 }
 
 .addBtn {
