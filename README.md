@@ -110,14 +110,14 @@ De score van deze twee karakters geeft de beweging aan.
 ## 📄 To do list
 - [x] Setup Project
 - [x] Build interface
-- [ ] Responsive
-- [ ] Fetch data
-- [ ] Visualize data with charts and circles
+- [x] Responsive
+- [x] Fetch data
+- [x] Visualize data with charts and circles
 - [x] Display activities
-- [ ] Make different charts
+- [x] Make different charts
 - [ ] Choose your weekly activities and goals
 - [x] Profile page
-- [ ] Use D3 to make charts
+- [x] Use D3 to make charts
 - [ ] Save activities
 - [ ] Load daily activities at planning page
 - [ ] Using MongooseDB with activities
