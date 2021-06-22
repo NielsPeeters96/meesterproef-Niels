@@ -48,7 +48,7 @@ Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de infor
 ## 📡 Cloning repo
 1. Clone this repo  
     ```bash
-    git clone https://github.com/NielsPeeters96/meesterproef-2021.git
+    git clone https://github.com/NielsPeeters96/meesterproef-Niels.git
     ```   
 
 2. install packages  
