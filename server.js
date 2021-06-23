@@ -28,28 +28,6 @@ mongo.MongoClient.connect(
     }
 );
 
-
-// getDataFromDatabase()
-// // getOneThingFromDatabase()   
-// // eerst even parameters goed zetten waarnaar je zoekt.   
-
-// // get all data form your database  
-// async function getDataFromDatabase(req, res, next) {
-//     const allData = await db.collection("datums").find()
-//     console.log(allData)
-// }
-
-// // Zoek naar 1 stuk data in plaats van alles.
-// async function getOneThingFromDatabase(req, res, next) {
-//   const user = await db.collection("datums").findOne({
-//     // SEARCH PARAMETERS
-//     // COMPARING THE EMAILS IN MY DATABASE TO FIND THE USER MATCHING THE LOGGED IN USER
-//     // VOOR JOUW WORDT DIT EEN ANDERE PARAMETER
-//     email: req.session.user.user.email
-//   });
-// console.log(user)
-// }
-
 app.use(express.static(path.resolve("public")))
 .use(
     bodyParser.urlencoded({
@@ -61,25 +39,33 @@ app.use(express.static(path.resolve("public")))
 app.set('views', './views');
 app.set('view engine', 'ejs');
 
-app.get("/", home, (req, res) => {
-    res.render('profiel.ejs');
-});
+app.get("/", home)
+.get("/activiteiten")
+.get("/doelen", goals)
+.get("/planactiviteiten")
+.get("/logboek")
 
-app.get('/activiteiten', (req, res) => {
-    res.render('activiteiten.ejs');
-});
+.post("/logboek", add)
 
-app.get('/doelen', goals, (req, res) => {
-    res.render('doelen.ejs');
-});
+function add(req, res, next) {
+    db.collection("datums").insertOne({
+            photographer: req.body.photographer,
+            location: req.body.location,
+            title: req.body.titlePhoto,
+            description: req.body.description,
+            image: req.file ? req.file.filename : null, // zet alles na de ? uit, dan krijg je een data object. Daar kan je meer mee.
+        },
+        renderPage()
+    );
 
-app.get('/planactiviteit', (req, res) => {
-    res.render('planactiviteit.ejs');
-});
-
-app.get('/logboek', (req, res) => {
-    res.render('logboek.ejs');
-});
+    function renderPage(err) {
+        if (err) {
+            next(err);
+        } else {
+            res.redirect("/");
+        }
+    }
+}
 
 app.listen(port, () => {
     console.log(`Server is working at http://localhost:${port}`)
