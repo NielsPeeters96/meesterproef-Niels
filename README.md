@@ -123,6 +123,11 @@ De score van deze twee karakters geeft de beweging aan.
 - [ ] Save activities
 - [ ] Load daily activities at planning page
 - [ ] Using MongooseDB with activities
+- [ ] Register User
+- [ ] Login User
+- [ ] Link goals to dashboard circle
+- [ ] Link your goals to the graph
+- [ ] Show your daily goal in your journal
 
 ---
 
