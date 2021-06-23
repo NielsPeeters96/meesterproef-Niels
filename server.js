@@ -40,20 +40,20 @@ app.set('views', './views');
 app.set('view engine', 'ejs');
 
 app.get("/", home)
-.get("/activiteiten")
+.get("/activiteiten", activiteiten)
 .get("/doelen", goals)
-.get("/planactiviteiten")
-.get("/logboek")
+.get("/planactiviteiten", planactiviteiten)
+.get("/logboek", logboek)
 
 .post("/logboek", add)
 
 function add(req, res, next) {
     db.collection("datums").insertOne({
-            photographer: req.body.photographer,
-            location: req.body.location,
-            title: req.body.titlePhoto,
-            description: req.body.description,
-            image: req.file ? req.file.filename : null, // zet alles na de ? uit, dan krijg je een data object. Daar kan je meer mee.
+            wandelen: req.body.wandelen,
+            fietsen: req.body.fietsen,
+            tuinieren: req.body.tuinieren,
+            boodschappen: req.body.boodschappen,
+            oefeningen: req.body.oefeningen, // zet alles na de ? uit, dan krijg je een data object. Daar kan je meer mee.
         },
         renderPage()
     );
@@ -65,6 +65,18 @@ function add(req, res, next) {
             res.redirect("/");
         }
     }
+}
+
+function logboek(req, res, next) {
+    res.render("/logboek.ejs")
+}
+
+function planactiviteiten(req, res, next) {
+    res.render("/planactiviteiten.ejs")
+}
+
+function activiteiten(req, res, next) {
+    res.render("/activiteiten.ejs")
 }
 
 app.listen(port, () => {
