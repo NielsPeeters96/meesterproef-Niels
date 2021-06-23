@@ -16,10 +16,10 @@ async function run() {
     try {
       await client.connect({useUnifiedTopology: true});
       const database = client.db('logboek-activiteiten');
-      const movies = database.collection('datums');
+      const datums = database.collection('datums');
       // Query for a movie that has the title 'Back to the Future'
-      const movie = await movies.find();
-      console.log(movie);
+      const datum = await datums.find();
+      console.log(datum);
     } finally {
       // Ensures that the client will close when you finish/error
       await client.close();
