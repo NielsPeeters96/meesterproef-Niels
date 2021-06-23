@@ -42,7 +42,7 @@ app.set('view engine', 'ejs');
 app.get("/", home)
 .get("/activiteiten", activiteiten)
 .get("/doelen", goals)
-.get("/planactiviteiten", planactiviteiten)
+.get("/planactiviteit", planactiviteiten)
 .get("/logboek", logboek)
 
 .post("/logboek", add)
@@ -72,7 +72,7 @@ function logboek(req, res) {
 }
 
 function planactiviteiten(req, res) {
-    res.render("planactiviteiten.ejs")
+    res.render("planactiviteit.ejs")
 }
 
 function activiteiten(req, res) {
