@@ -117,7 +117,7 @@ De score van deze twee karakters geeft de beweging aan.
 - [x] Visualize data with charts and circles
 - [x] Display activities
 - [x] Make different charts
-- [ ] Choose your weekly activities and goals
+- [x] Choose your weekly activities and goals
 - [x] Profile page
 - [x] Use D3 to make charts
 - [ ] Save activities
