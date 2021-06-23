@@ -67,15 +67,15 @@ function add(req, res, next) {
     }
 }
 
-function logboek(req, res, next) {
+function logboek(req, res) {
     res.render("logboek.ejs")
 }
 
-function planactiviteiten(req, res, next) {
+function planactiviteiten(req, res) {
     res.render("planactiviteiten.ejs")
 }
 
-function activiteiten(req, res, next) {
+function activiteiten(req, res) {
     res.render("activiteiten.ejs")
 }
 
