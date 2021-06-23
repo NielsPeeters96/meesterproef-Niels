@@ -68,15 +68,15 @@ function add(req, res, next) {
 }
 
 function logboek(req, res, next) {
-    res.render("/logboek.ejs")
+    res.render("logboek.ejs")
 }
 
 function planactiviteiten(req, res, next) {
-    res.render("/planactiviteiten.ejs")
+    res.render("planactiviteiten.ejs")
 }
 
 function activiteiten(req, res, next) {
-    res.render("/activiteiten.ejs")
+    res.render("activiteiten.ejs")
 }
 
 app.listen(port, () => {
