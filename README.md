@@ -137,6 +137,7 @@ De score van deze twee karakters geeft de beweging aan.
 - https://docs.mongodb.com/drivers/node/quick-start/
 - https://account.mongodb.com/account/login?n=%2Fv2%2F60d1e5f618829440199f1b73%23metrics%2FreplicaSet%2F60d1e9d86003862127003472%2Fexplorer%2Flogboek-activiteiten%2Fdatums%2Ffind
 - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose
+- https://zellwk.com/blog/crud-express-mongodb/
 
 ---
 
