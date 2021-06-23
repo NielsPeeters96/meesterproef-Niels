@@ -9,23 +9,46 @@ const home = require('./routes/home');
 const goals = require('./routes/goals');
 const { response } = require('express');
 
-const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://npeeters:test123@logboek.tv8ou.mongodb.net/logboek-activiteiten?retryWrites=true&w=majority";
-const client = new MongoClient(uri);
-async function run() {
-    try {
-      await client.connect({useUnifiedTopology: true});
-      const database = client.db('logboek-activiteiten');
-      const datums = database.collection('datums');
-      // Query for a movie that has the title 'Back to the Future'
-      const datum = await datums.find();
-      console.log(datum);
-    } finally {
-      // Ensures that the client will close when you finish/error
-      await client.close();
+const mongo = require("mongodb");
+
+var db = null;
+var url = "mongodb+srv://" + "npeeters:test123@logboek.tv8ou.mongodb.net";
+
+mongo.MongoClient.connect(
+    url, {
+        useUnifiedTopology: true,
+    },
+    function (err, client) {
+        if (err) {
+            throw err;
+        }
+
+        db = client.db('logboek-activiteiten');
+        console.log("Connected correctly to MongoDB server");
     }
-  }
-  run().catch(console.dir);
+);
+
+
+// getDataFromDatabase()
+// // getOneThingFromDatabase()   
+// // eerst even parameters goed zetten waarnaar je zoekt.   
+
+// // get all data form your database  
+// async function getDataFromDatabase(req, res, next) {
+//     const allData = await db.collection("datums").find()
+//     console.log(allData)
+// }
+
+// // Zoek naar 1 stuk data in plaats van alles.
+// async function getOneThingFromDatabase(req, res, next) {
+//   const user = await db.collection("datums").findOne({
+//     // SEARCH PARAMETERS
+//     // COMPARING THE EMAILS IN MY DATABASE TO FIND THE USER MATCHING THE LOGGED IN USER
+//     // VOOR JOUW WORDT DIT EEN ANDERE PARAMETER
+//     email: req.session.user.user.email
+//   });
+// console.log(user)
+// }
 
 app.use(express.static(path.resolve("public")))
 .use(
