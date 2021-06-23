@@ -134,6 +134,9 @@ De score van deze twee karakters geeft de beweging aan.
 - https://www.youtube.com/watch?v=Ft73g5Kyknw&t=54s&ab_channel=freeCodeCamp.orgfreeCodeCamp.orgGeverifieerd
 - https://zellwk.com/blog/local-mongodb/
 - https://jimmydekroon.medium.com/my-first-experience-with-databases-bf58bf2fb014
+- https://docs.mongodb.com/drivers/node/quick-start/
+- https://account.mongodb.com/account/login?n=%2Fv2%2F60d1e5f618829440199f1b73%23metrics%2FreplicaSet%2F60d1e9d86003862127003472%2Fexplorer%2Flogboek-activiteiten%2Fdatums%2Ffind
+- https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose
 
 ---
 
