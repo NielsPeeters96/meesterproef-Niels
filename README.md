@@ -1,29 +1,29 @@
 # Meesterproef 2021
 
-## 🔴 Livelink
+## 🔴 Live
 https://hipper-niels.herokuapp.com/
 
-This design is made for Tablets
+De applicatie is gemaakt voor Tablet gebruikers
 
 ---
 
 <!-------------------------- New Paragraph -------------------------->
 
-## 📖 Description
+## 📖 Beschrijving
 Hipper is een IOT-apparaat dat de gebruiker helpt bij revalidatie. Oorspronkelijk helpt het bij revalidatie na een heupfractuur, maar tegenwoordig wordt Hipper ook gebruikt voor andere revalidaties. Het apparaat wordt de PAM genoemd. De PAM meet de beweging van de gebruiker en stuurt deze gegevens via de server naar een dashboard. Het aantal oefeningen wordt gemeten in een zogenaamde PAM-score. De revalidant kan deze gegevens vervolgens met zijn therapeut analyseren en doelen stellen.
 
 ---
 
 <!-------------------------- New Paragraph -------------------------->
 
-## ✒️ Assignment
+## ✒️ Opdracht
 Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de informatie en uit onderzoek blijkt dat dit komt door de manier waarop gegevens worden weergegeven.
 
 ---
 
 <!-------------------------- New Paragraph -------------------------->
 
-## ✏️ Sketches
+## ✏️ Schetsen
 
 <details>
 
@@ -47,7 +47,7 @@ Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de infor
 
 <!-------------------------- New Paragraph -------------------------->
 
-## 📡 Cloning repo
+## 📡 Repository Clonen
 1. Clone this repo  
     ```bash
     git clone https://github.com/NielsPeeters96/meesterproef-Niels.git
@@ -61,7 +61,7 @@ Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de infor
 
 <!-------------------------- New Paragraph -------------------------->
 
-## 📦 Spike
+## 📦 Problemen
 
 Vastgelopen op: 
 - Grafieken toevoegen (verschillende ontwerpen)
@@ -134,7 +134,7 @@ De score van deze twee karakters geeft de beweging aan.
 <!-------------------------- New Paragraph -------------------------->
 
 
-## ℹ️ Sources
+## ℹ️ Bronnen
 - https://github.com/NathanNeelis/meesterproef-2021
 - https://www.youtube.com/watch?v=BDpBAFvdjYo&ab_channel=LoharTalkLoharTalk 
 - https://www.youtube.com/watch?v=C4t6qfHZ6Tw&t=1393s&ab_channel=freeCodeCamp.orgfreeCodeCamp.org
@@ -150,5 +150,5 @@ De score van deze twee karakters geeft de beweging aan.
 
 <!-------------------------- New Paragraph -------------------------->
 
-## 🔒 Licence
+## 🔒 Licentie
 Niels Peeters Hogeschool van Amsterdam, Web Design & Development 2021
