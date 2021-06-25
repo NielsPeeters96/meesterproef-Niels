@@ -2,8 +2,7 @@ const express = require('express');
 const compression = require('compression');
 const path = require("path");
 const app = express();
-const port = process.env.PORT || 5000;
-var bodyParser = require('body-parser');
+const PORT = process.env.PORT || 3000;
 
 const home = require('./routes/home');
 const goals = require('./routes/goals');
@@ -29,11 +28,6 @@ mongo.MongoClient.connect(
 );
 
 app.use(express.static(path.resolve("public")))
-.use(
-    bodyParser.urlencoded({
-        extended: true,
-    })
-)
 .use(compression());
 
 app.set('views', './views');
@@ -99,6 +93,4 @@ function activiteiten(req, res) {
     res.render("activiteiten.ejs")
 }
 
-app.listen(port, () => {
-    console.log(`Server is working at http://localhost:${port}`)
-});
+app.listen(PORT, () => console.log(`App is running on port ${PORT}`));
