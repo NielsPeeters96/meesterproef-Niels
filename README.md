@@ -37,28 +37,28 @@ Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de infor
 
 <!-------------------------- New Paragraph -------------------------->
 
-## Doelen instellen
+### Doelen instellen
 Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de informatie en uit onderzoek blijkt dat dit komt door de manier waarop gegevens worden weergegeven.
 
 ---
 
 <!-------------------------- New Paragraph -------------------------->
 
-## Activiteiten
+### Activiteiten
 Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de informatie en uit onderzoek blijkt dat dit komt door de manier waarop gegevens worden weergegeven.
 
 ---
 
 <!-------------------------- New Paragraph -------------------------->
 
-## Activiteiten toevoegen
+### Activiteiten toevoegen
 Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de informatie en uit onderzoek blijkt dat dit komt door de manier waarop gegevens worden weergegeven.
 
 ---
 
 <!-------------------------- New Paragraph -------------------------->
 
-## Logboek
+### Logboek
 Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de informatie en uit onderzoek blijkt dat dit komt door de manier waarop gegevens worden weergegeven.
 
 ---
