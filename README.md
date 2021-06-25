@@ -127,9 +127,10 @@ De score van deze twee karakters geeft de beweging aan.
 - [x] Choose your weekly activities and goals
 - [x] Profile page
 - [x] Use D3 to make charts
-- [ ] Save activities
-- [ ] Load daily activities at planning page
-- [ ] Using MongooseDB with activities
+- [x] Save activities
+- [x] Load daily activities at planning page
+- [x] Using MongooseDB with activities
+- [ ] Load activities from other dates
 - [ ] Register User
 - [ ] Login User
 - [ ] Link goals to dashboard circle
