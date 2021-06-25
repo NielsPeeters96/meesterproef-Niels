@@ -1,6 +1,6 @@
 # Meesterproef 2021
 
-## 🔴 Live
+## ▶️ Live
 https://hipper-niels.herokuapp.com/
 
 De applicatie is gemaakt voor Tablet gebruikers
