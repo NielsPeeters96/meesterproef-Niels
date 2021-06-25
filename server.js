@@ -48,12 +48,22 @@ app.get("/", home)
 .post("/logboek", add)
 
 function add(req, res, next) {
+    const datum = getDate();
+    const activiteitenobject = {wandelen: req.body.wandelen, 
+        fietsen: req.body.fietsen,
+        tuinieren: req.body.tuinieren,
+        boodschappen: req.body.boodschappen,
+        oefeningen: req.body.oefeningen,}
+    let activiteitenlijst = []
+    for (const [key, value] of Object.entries(activiteitenobject)) {
+        if (value) {
+            activiteitenlijst.push(key)
+        }
+      }
     db.collection("datums").insertOne({
-            wandelen: req.body.wandelen,
-            fietsen: req.body.fietsen,
-            tuinieren: req.body.tuinieren,
-            boodschappen: req.body.boodschappen,
-            oefeningen: req.body.oefeningen, // zet alles na de ? uit, dan krijg je een data object. Daar kan je meer mee.
+        datum,
+        activiteitenlijst, 
+
         },
         renderPage()
     );
@@ -67,8 +77,18 @@ function add(req, res, next) {
     }
 }
 
-function logboek(req, res) {
-    res.render("logboek.ejs")
+function getDate() {
+    let yourDate = new Date()
+yourDate.toISOString().split('T')[0]
+    const offset = yourDate.getTimezoneOffset()
+yourDate = new Date(yourDate.getTime() - (offset*60*1000))
+return yourDate.toISOString().split('T')[0]
+}
+
+async function logboek(req, res) {
+    const datums = await db.collection("datums").find().toArray()
+    const day = getDate()
+    res.render("logboek.ejs", {datums, day})
 }
 
 function planactiviteiten(req, res) {
