@@ -1,6 +1,6 @@
 # Meesterproef 2021
 
-## ▶️ Live
+## Live
 https://hipper-niels.herokuapp.com/
 
 De applicatie is gemaakt voor Tablet gebruikers
@@ -9,21 +9,64 @@ De applicatie is gemaakt voor Tablet gebruikers
 
 <!-------------------------- New Paragraph -------------------------->
 
-## 📖 Beschrijving
+## Beschrijving
 Hipper is een IOT-apparaat dat de gebruiker helpt bij revalidatie. Oorspronkelijk helpt het bij revalidatie na een heupfractuur, maar tegenwoordig wordt Hipper ook gebruikt voor andere revalidaties. Het apparaat wordt de PAM genoemd. De PAM meet de beweging van de gebruiker en stuurt deze gegevens via de server naar een dashboard. Het aantal oefeningen wordt gemeten in een zogenaamde PAM-score. De revalidant kan deze gegevens vervolgens met zijn therapeut analyseren en doelen stellen.
 
 ---
 
 <!-------------------------- New Paragraph -------------------------->
 
-## ✒️ Opdracht
+## Opdracht
 Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de informatie en uit onderzoek blijkt dat dit komt door de manier waarop gegevens worden weergegeven.
 
 ---
 
 <!-------------------------- New Paragraph -------------------------->
 
-## ✏️ Schetsen
+## Concept
+Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de informatie en uit onderzoek blijkt dat dit komt door de manier waarop gegevens worden weergegeven.
+
+---
+
+<!-------------------------- New Paragraph -------------------------->
+
+## Features
+### Dashboard
+
+---
+
+<!-------------------------- New Paragraph -------------------------->
+
+## Doelen instellen
+Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de informatie en uit onderzoek blijkt dat dit komt door de manier waarop gegevens worden weergegeven.
+
+---
+
+<!-------------------------- New Paragraph -------------------------->
+
+## Activiteiten
+Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de informatie en uit onderzoek blijkt dat dit komt door de manier waarop gegevens worden weergegeven.
+
+---
+
+<!-------------------------- New Paragraph -------------------------->
+
+## Activiteiten toevoegen
+Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de informatie en uit onderzoek blijkt dat dit komt door de manier waarop gegevens worden weergegeven.
+
+---
+
+<!-------------------------- New Paragraph -------------------------->
+
+## Logboek
+Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de informatie en uit onderzoek blijkt dat dit komt door de manier waarop gegevens worden weergegeven.
+
+---
+
+<!-------------------------- New Paragraph -------------------------->
+
+
+## Schetsen
 
 <details>
 
@@ -47,7 +90,7 @@ Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de infor
 
 <!-------------------------- New Paragraph -------------------------->
 
-## 📡 Repository Clonen
+## Repository Clonen
 1. Clone this repo  
     ```bash
     git clone https://github.com/NielsPeeters96/meesterproef-Niels.git
@@ -61,20 +104,7 @@ Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de infor
 
 <!-------------------------- New Paragraph -------------------------->
 
-## 🧳 Features
-
-- Node JS
-- Express
-- Dotenv
-- D3 Charts
-- MongooseDB
-- Serviceworker
-
----
-
-<!-------------------------- New Paragraph -------------------------->
-
-## 🗂️ Data & API
+## Data & API
 Nathan Neelis heeft een GIST aangemaakt op GitHub met daarin dezelfde code als de data die je krijgt van Hipper. Door zijn getData en javascript code heb ik deze data kunnen fetchen en kan ik deze vervolgens laten zien op de pagina en naar mijn concept stijlen.
 
 ### PAM daily values
@@ -96,7 +126,7 @@ De score van deze twee karakters geeft de beweging aan.
 
 <!-------------------------- New Paragraph -------------------------->
 
-## 📄 To do list
+## Planning
 - [x] Setup Project
 - [x] Build interface
 - [x] Responsive
@@ -127,7 +157,7 @@ De score van deze twee karakters geeft de beweging aan.
 <!-------------------------- New Paragraph -------------------------->
 
 
-## ℹ️ Bronnen
+## Bronnen
 - https://github.com/NathanNeelis/meesterproef-2021
 - https://stackoverflow.com/questions/43842793/basic-authentication-with-fetch
 - https://www.youtube.com/watch?v=baorOUVPF-I
@@ -150,5 +180,5 @@ De score van deze twee karakters geeft de beweging aan.
 
 <!-------------------------- New Paragraph -------------------------->
 
-## 🔒 Licentie
+## Licentie
 Niels Peeters Hogeschool van Amsterdam, Web Design & Development 2021
