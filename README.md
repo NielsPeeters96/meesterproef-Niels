@@ -68,6 +68,7 @@ Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de infor
 - Dotenv
 - D3 Charts
 - MongooseDB
+- Serviceworker
 
 ---
 
