@@ -3,7 +3,8 @@
 ## Live
 https://hipper-niels.herokuapp.com/
 
-De applicatie is gemaakt voor Tablet gebruikers. ### Op je desktop druk op F12 en vervolgens op iPad formaat, daarna op een knop op de navigatiebalk voor het juiste scherm.
+De applicatie is gemaakt voor Tablet gebruikers. 
+### Op je desktop druk op F12 en vervolgens op iPad formaat, daarna op een knop op de navigatiebalk voor het juiste scherm.
 
 ---
 
