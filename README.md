@@ -61,20 +61,6 @@ Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de infor
 
 <!-------------------------- New Paragraph -------------------------->
 
-## 📦 Problemen
-
-Vastgelopen op: 
-- Grafieken toevoegen (verschillende ontwerpen)
-- Doelen instellen en de data terugstoppen in het dashboard met javascript
-- Design responsive maken omdat we ons focussen op Tablet
-- Geen professional op het gebied van Node JS
-- Moeite met programmeren
-- MongooseDB leren en toepassen
-
----
-
-<!-------------------------- New Paragraph -------------------------->
-
 ## 🧳 Features
 
 - Node JS
@@ -128,6 +114,12 @@ De score van deze twee karakters geeft de beweging aan.
 - [ ] Link goals to dashboard circle
 - [ ] Link your goals to the graph
 - [ ] Show your daily goal in your journal
+- [ ] Save daily scores in database
+- [ ] Save goals in database
+- [ ] Make circle animation on dashboard dynamic based on target
+- [ ] Add manifest
+- [ ] Add serviceworker
+- [ ] Cache pages
 
 ---
 
@@ -136,6 +128,10 @@ De score van deze twee karakters geeft de beweging aan.
 
 ## ℹ️ Bronnen
 - https://github.com/NathanNeelis/meesterproef-2021
+- https://stackoverflow.com/questions/43842793/basic-authentication-with-fetch
+- https://www.youtube.com/watch?v=baorOUVPF-I
+- https://www.youtube.com/watch?v=_SubPYPtJO4
+- https://css-tricks.com/using-conic-gradients-css-variables-create-doughnut-chart-output-range-input/
 - https://www.youtube.com/watch?v=BDpBAFvdjYo&ab_channel=LoharTalkLoharTalk 
 - https://www.youtube.com/watch?v=C4t6qfHZ6Tw&t=1393s&ab_channel=freeCodeCamp.orgfreeCodeCamp.org
 - https://www.youtube.com/watch?v=Ft73g5Kyknw&t=54s&ab_channel=freeCodeCamp.orgfreeCodeCamp.orgGeverifieerd
@@ -145,6 +141,9 @@ De score van deze twee karakters geeft de beweging aan.
 - https://account.mongodb.com/account/login?n=%2Fv2%2F60d1e5f618829440199f1b73%23metrics%2FreplicaSet%2F60d1e9d86003862127003472%2Fexplorer%2Flogboek-activiteiten%2Fdatums%2Ffind
 - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose
 - https://zellwk.com/blog/crud-express-mongodb/
+- https://web.dev/at-property/
+- https://developer.mozilla.org/en-US/docs/Web/API/CSS/RegisterProperty
+- https://usefulangle.com/post/187/nodejs-get-date-time
 
 ---
 
