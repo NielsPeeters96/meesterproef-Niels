@@ -65,32 +65,7 @@ Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de infor
 
 <!-------------------------- New Paragraph -------------------------->
 
-
-## Schetsen
-
-<details>
-
-<summary>Daily overview</summary>
-
-![image](https://user-images.githubusercontent.com/78353674/118961070-3612c500-b964-11eb-9cfb-4a67053289f3.png)
-
-</details>
-
-<details>
-
-<summary>Break-down-schets</summary>
-
-![image](https://github.com/NielsPeeters96/meesterproef-Niels/blob/main/public/images/Break-down-schets.png)
-    
-![image](https://user-images.githubusercontent.com/78353674/123107578-f5620c00-d439-11eb-8023-977495e7fd6b.png)
-
-</details>
-
----
-
-<!-------------------------- New Paragraph -------------------------->
-
-## Repository Clonen
+## Installatie
 1. Clone this repo  
     ```bash
     git clone https://github.com/NielsPeeters96/meesterproef-Niels.git
@@ -99,6 +74,21 @@ Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de infor
 2. install packages  
     ```bash
     npm install
+    ```
+    
+3. install MongoDB  
+    ```bash
+    npm install mongodb --save
+    ```
+    
+4. install Mongoose  
+    ```bash
+    npm install mongoose
+    ```
+    
+4. start applicatie  
+    ```bash
+    node server.js
     ```
 ---
 
