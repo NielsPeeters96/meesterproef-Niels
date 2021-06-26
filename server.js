@@ -26,12 +26,8 @@ mongo.MongoClient.connect(
     }
     );
     app.use(express.static(path.resolve("public")))
-    .use(
-        bodyParser.urlencoded({
-            extended: true,
-        })
-        )
         .use(compression());
+        
         app.set('views', './views');
         app.set('view engine', 'ejs');
         
