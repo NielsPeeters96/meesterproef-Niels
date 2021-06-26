@@ -55,9 +55,9 @@ function getCurrentWeek(data) {
         pam
     }) => arrayTotal += pam);
 
-    const avarage = Math.round(arrayTotal / length) + 1;
+    const average = Math.round(arrayTotal / length) + 1;
     // console.log('avarage pam score dataset', avarage)
 
-    return avarage
+    return average
 
 }
