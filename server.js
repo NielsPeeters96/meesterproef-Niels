@@ -6,7 +6,6 @@ const PORT = process.env.PORT || 3000;
 
 const home = require('./routes/home');
 const goals = require('./routes/goals');
-const { response } = require('express');
 
 const mongo = require("mongodb");
 
