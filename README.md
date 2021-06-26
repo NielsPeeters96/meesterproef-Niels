@@ -1,6 +1,7 @@
 # Meesterproef 2021
 
 ## Live
+Op dit moment werkt de live-versie nog niet, omdat er problemen zijn met Heroku, om de applicatie te draaien volg de stappen uit het kopje installatie!
 https://hipper-niels.herokuapp.com/
 
 De applicatie is gemaakt voor Tablet gebruikers. 
@@ -91,11 +92,6 @@ Het logboek geeft aan welke activiteiten de revalidant vandaag heeft voltooid. D
 3. install MongoDB  
     ```bash
     npm install mongodb --save
-    ```
-    
-4. install Mongoose  
-    ```bash
-    npm install mongoose
     ```
     
 4. start applicatie  
