@@ -44,30 +44,13 @@
         <h4>Afgeronde activiteiten</h4>
     </div>
     <div class="activities_wrapper">
+        <% for (datum of datums.filter(value => value.datum == day)) { %>
+        <% for (activity of datum.activiteitenlijst) { %>
         <a href="/" class="activity_overview">
-            <p>Wandelen</p>
-            <!-- icon: https://thenounproject.com/search/?q=walking&i=112220  -->
+            <p><%= activity %></p>
             <img src="https://static.thenounproject.com/png/3983187-200.png" alt="icon walking">
         </a>
-        <a href="/" class="activity_overview">
-            <p>Boodschappen doen</p>
-            <img src="https://static.thenounproject.com/png/3983187-200.png" alt="icon walking">
-        </a>
-        <a href="/" class="activity_overview">
-            <p>Stofzuigen</p>
-            <img src="https://static.thenounproject.com/png/3983187-200.png" alt="icon walking">
-        </a>
-        <a href="/" class="activity_overview">
-            <p>Tuinieren</p>
-            <img src="https://static.thenounproject.com/png/3983187-200.png" alt="icon walking">
-        </a>
-        <a href="/" class="activity_overview">
-            <p>Fietsen</p>
-            <img src="https://static.thenounproject.com/png/3983187-200.png" alt="icon walking">
-        </a>
-        <a href="/" class="activity_overview">
-            <p>Fysio/Ergo oefeningen</p>
-            <img src="https://static.thenounproject.com/png/3983187-200.png" alt="icon walking">
-        </a>
+        <% } %>
+        <% } %>
     </div>
 </body>

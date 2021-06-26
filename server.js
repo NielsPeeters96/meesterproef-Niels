@@ -2,12 +2,10 @@ const express = require('express');
 const compression = require('compression');
 const path = require("path");
 const app = express();
-const port = process.env.PORT || 5000;
-var bodyParser = require('body-parser');
+const PORT = process.env.PORT || 3000;
 
 const home = require('./routes/home');
 const goals = require('./routes/goals');
-const { response } = require('express');
 
 const mongo = require("mongodb");
 
@@ -27,7 +25,6 @@ mongo.MongoClient.connect(
         console.log("Connected correctly to MongoDB server");
     }
     );
-    
     app.use(express.static(path.resolve("public")))
     .use(
         bodyParser.urlencoded({
@@ -35,7 +32,6 @@ mongo.MongoClient.connect(
         })
         )
         .use(compression());
-        
         app.set('views', './views');
         app.set('view engine', 'ejs');
         
@@ -44,7 +40,7 @@ mongo.MongoClient.connect(
         .get("/doelen", goals)
         .get("/planactiviteit", planactiviteiten)
         .get("/logboek", logboek)
-        
+
         .post("/logboek", add)
         
         function add(req, res, next) {
@@ -66,7 +62,7 @@ mongo.MongoClient.connect(
                 }
             }
         }
-        
+
         function logboek(req, res) {
             res.render("logboek.ejs")
         }
@@ -79,6 +75,6 @@ mongo.MongoClient.connect(
             res.render("activiteiten.ejs")
         }
         
-        app.listen(port, () => {
-            console.log(`Server is working at http://localhost:${port}`)
+        app.listen(PORT, () => {
+            console.log(`Server is working at http://localhost:${PORT}`)
         });

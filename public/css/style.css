@@ -457,6 +457,7 @@ div.populair h4 {
 .activity_overview p {
   width: 100%;
   text-align: center;
+  text-transform: capitalize;
 }
 
 /* navigation */

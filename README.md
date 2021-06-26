@@ -1,9 +1,11 @@
 # Meesterproef 2021
 
 ## Live
+Op dit moment werkt de live-versie nog niet, omdat er problemen zijn met Heroku, om de applicatie te draaien volg de stappen uit het kopje installatie!
 https://hipper-niels.herokuapp.com/
 
-De applicatie is gemaakt voor Tablet gebruikers
+De applicatie is gemaakt voor Tablet gebruikers. 
+### Op je desktop druk op F12 en vervolgens op iPad formaat, daarna op een knop op de navigatiebalk voor het juiste scherm.
 
 ---
 
@@ -24,7 +26,7 @@ Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de infor
 <!-------------------------- New Paragraph -------------------------->
 
 ## Concept
-Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de informatie en uit onderzoek blijkt dat dit komt door de manier waarop gegevens worden weergegeven.
+Het nieuwe ontwerp is een dashboard waarin gebruikers hun data kunnen zien. Daarnaast dagelijks activiteiten kunnen selecteren die zij gedaan hebben om deze vervolgens te bekijken in het logboek. Hierin worden alle activiteiten op datum opgeslagen zodat de revalidant en therapeut kunnen zien welke activiteiten er dagelijks gedaan zijn.
 
 ---
 
@@ -32,34 +34,45 @@ Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de infor
 
 ## Features
 ### Dashboard
+Op het dashboard staan alle dagelijkse scores van de revalidant en is de home pagina van de applicatie. Het rondje geeft aan hoe ver de revalidant zijn of haar doel bereikt heeft. In de grafiek staat de dagelijkse PAM-score aangegeven met een lijn.
+
+![image](https://user-images.githubusercontent.com/78353674/123434587-f4151880-d5cc-11eb-801b-a4d69deb6797.png)
 
 ---
 
 <!-------------------------- New Paragraph -------------------------->
 
 ### Doelen instellen
-Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de informatie en uit onderzoek blijkt dat dit komt door de manier waarop gegevens worden weergegeven.
+De therapeut kan samen met de revalidant een doel instellen waar de revalidant zich 1 week mee bezig gaat houden.
+
+![image](https://user-images.githubusercontent.com/78353674/123434650-01320780-d5cd-11eb-820b-e57192921f43.png)
 
 ---
 
 <!-------------------------- New Paragraph -------------------------->
 
 ### Activiteiten
-Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de informatie en uit onderzoek blijkt dat dit komt door de manier waarop gegevens worden weergegeven.
+Op de pagina activiteiten staan afbeelingen die horen bij een bepaalde activiteit. Dit moet de gebruiker motiveren om lekker te gaan bewegen en vervolgens op deze activiteit te drukken.
+
+![image](https://user-images.githubusercontent.com/78353674/123434711-0f802380-d5cd-11eb-985f-a49c9009a354.png)
 
 ---
 
 <!-------------------------- New Paragraph -------------------------->
 
 ### Activiteiten toevoegen
-Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de informatie en uit onderzoek blijkt dat dit komt door de manier waarop gegevens worden weergegeven.
+Aan het eind van de dag kan de revalidant hier zelf zijn of haar activiteiten invoeren die vervolgens aan het logboek worden toegevoegd.
+
+![image](https://user-images.githubusercontent.com/78353674/123434774-20309980-d5cd-11eb-82a9-3e58834549c6.png)
 
 ---
 
 <!-------------------------- New Paragraph -------------------------->
 
 ### Logboek
-Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de informatie en uit onderzoek blijkt dat dit komt door de manier waarop gegevens worden weergegeven.
+Het logboek geeft aan welke activiteiten de revalidant vandaag heeft voltooid. Daarnaast kun je op de kalender op een datum drukken en de daarbijhorende activiteiten van die dag zien.
+
+![image](https://user-images.githubusercontent.com/78353674/123434814-2aeb2e80-d5cd-11eb-89cf-b52bef0a0fed.png)
 
 ---
 
@@ -79,11 +92,6 @@ Momenteel hebben revalidatiepatiënten moeite met het interpreteren van de infor
 3. install MongoDB  
     ```bash
     npm install mongodb --save
-    ```
-    
-4. install Mongoose  
-    ```bash
-    npm install mongoose
     ```
     
 4. start applicatie  
@@ -127,9 +135,10 @@ De score van deze twee karakters geeft de beweging aan.
 - [x] Choose your weekly activities and goals
 - [x] Profile page
 - [x] Use D3 to make charts
-- [ ] Save activities
-- [ ] Load daily activities at planning page
-- [ ] Using MongooseDB with activities
+- [x] Save activities
+- [x] Load daily activities at planning page
+- [x] Using MongooseDB with activities
+- [ ] Load activities from other dates
 - [ ] Register User
 - [ ] Login User
 - [ ] Link goals to dashboard circle
@@ -145,7 +154,6 @@ De score van deze twee karakters geeft de beweging aan.
 ---
 
 <!-------------------------- New Paragraph -------------------------->
-
 
 ## Bronnen
 - https://github.com/NathanNeelis/meesterproef-2021
@@ -165,6 +173,10 @@ De score van deze twee karakters geeft de beweging aan.
 - https://web.dev/at-property/
 - https://developer.mozilla.org/en-US/docs/Web/API/CSS/RegisterProperty
 - https://usefulangle.com/post/187/nodejs-get-date-time
+
+
+### Presentatie
+https://presentatie-hipper.netlify.app/
 
 ---
 
