@@ -1,7 +1,6 @@
 # Meesterproef 2021
 
 ## Live
-Op dit moment werkt de live-server nog niet en ik krijg hem ook niet aan de praat. Om de applicatie te draaien volg de stappen uit het kopje 'Installatie'
 https://hipper-niels.herokuapp.com/
 
 De applicatie is gemaakt voor Tablet gebruikers. 
