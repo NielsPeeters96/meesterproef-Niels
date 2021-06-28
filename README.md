@@ -132,7 +132,7 @@ De score van deze twee karakters geeft de beweging aan.
 ## Planning
 - [x] Setup Project
 - [x] Build interface
-- [x] Responsive
+- [x] Design for Tablet users
 - [x] Fetch data
 - [x] Visualize data with charts and circles
 - [x] Display activities
@@ -155,6 +155,7 @@ De score van deze twee karakters geeft de beweging aan.
 - [ ] Add manifest
 - [ ] Add serviceworker
 - [ ] Cache pages
+- [ ] Responsive for desktop and mobile
 
 ---
 
