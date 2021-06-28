@@ -1,6 +1,7 @@
 const express = require('express');
 const compression = require('compression');
 const path = require("path");
+const bodyParser = require('body-parser');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -28,7 +29,8 @@ mongo.MongoClient.connect(
 );
 
 app.use(express.static(path.resolve("public")))
-.use(compression());
+.use(compression())
+.use(bodyParser.urlencoded({ extended: false }));
 
 app.set('views', './views');
 app.set('view engine', 'ejs');
