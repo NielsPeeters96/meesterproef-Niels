@@ -2,14 +2,15 @@ const express = require('express');
 const compression = require('compression');
 const path = require("path");
 const app = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 
 const home = require('./routes/home');
 const goals = require('./routes/goals');
+const { response } = require('express');
 
 const mongo = require("mongodb");
 
-db = null;
+var db = null;
 var url = "mongodb+srv://" + "npeeters:test123@logboek.tv8ou.mongodb.net";
 
 mongo.MongoClient.connect(
@@ -46,7 +47,7 @@ function add(req, res, next) {
         fietsen: req.body.fietsen,
         tuinieren: req.body.tuinieren,
         boodschappen: req.body.boodschappen,
-        oefeningen: req.body.oefeningen,}
+        oefeningen: req.body.oefeningen}
     let activiteitenlijst = []
     for (const [key, value] of Object.entries(activiteitenobject)) {
         if (value) {
@@ -65,7 +66,7 @@ function add(req, res, next) {
         if (err) {
             next(err);
         } else {
-            res.redirect("/logboek");
+            res.redirect("/");
         }
     }
 }
