@@ -2,7 +2,7 @@ const express = require('express');
 const compression = require('compression');
 const path = require("path");
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 const home = require('./routes/home');
 const goals = require('./routes/goals');
@@ -65,7 +65,7 @@ function add(req, res, next) {
         if (err) {
             next(err);
         } else {
-            res.redirect("/");
+            res.redirect("/logboek");
         }
     }
 }
