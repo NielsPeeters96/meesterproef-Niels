@@ -9,7 +9,6 @@ const goals = require('./routes/goals');
 
 const mongo = require("mongodb");
 
-var db = null;
 var url = "mongodb+srv://" + "npeeters:test123@logboek.tv8ou.mongodb.net";
 
 mongo.MongoClient.connect(
