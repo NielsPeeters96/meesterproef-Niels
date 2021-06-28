@@ -1,6 +1,7 @@
 # Meesterproef 2021
 
 ## Live
+Op dit moment werkt de live-server nog niet en ik krijg hem ook niet aan de praat. Om de applicatie te draaien volg de stappen uit het kopje 'Installatie'
 https://hipper-niels.herokuapp.com/
 
 De applicatie is gemaakt voor Tablet gebruikers. 
@@ -82,18 +83,23 @@ Het logboek geeft aan welke activiteiten de revalidant vandaag heeft voltooid. D
     ```bash
     git clone https://github.com/NielsPeeters96/meesterproef-Niels.git
     ```   
+    
+2. Download Node 
+    ```bash
+    Node https://nodejs.org/en/
+    ``` 
 
-2. install packages  
+3. install packages  
     ```bash
     npm install
     ```
     
-3. install MongoDB  
+4. install MongoDB  
     ```bash
     npm install mongodb --save
     ```
     
-4. start applicatie  
+5. start applicatie  
     ```bash
     node server.js
     ```
