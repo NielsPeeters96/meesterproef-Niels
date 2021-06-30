@@ -182,8 +182,11 @@ De score van deze twee karakters geeft de beweging aan.
 
 ### Wiki-bronnen
 [Presentatie](https://presentatie-hipper.netlify.app/)
+
 [Design Rationale](https://github.com/NielsPeeters96/meesterproef-Niels/wiki/Design-Rationale)
+
 [Vervolgtraject](https://github.com/NielsPeeters96/meesterproef-Niels/wiki/Vervolgtraject)
+
 [Reflectie](https://github.com/NielsPeeters96/meesterproef-Niels/wiki/Reflectie)
 
 ---
